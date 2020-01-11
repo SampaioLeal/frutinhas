@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+}
+#root {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu {
+	opacity: 1;
+	height: 100vh;
+	width: 100%;
+	z-index: 999;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	background: rgb(26, 137, 255);
+	background: -moz-linear-gradient(180deg, #007ae1 0%, #81abff 100%);
+	background: -webkit-linear-gradient(180deg, #007ae1 0%, #81abff 100%);
+	background: linear-gradient(180deg, #007ae1 0%, #81abff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a89ff",endColorstr="#619ff6",GradientType=1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu .title {
+	display: none;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-shadow: 2px 4px 0px #1880a0;
+	cursor: default;
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu p {
+	display: none;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-shadow: 2px 2px 2px #078394f6;
+	font-weight: bold;
+	cursor: default;
+	margin-bottom: 100px;
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
 }
 
-.App-link {
-  color: #61dafb;
+.menu p a {
+	color: white;
+	text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu img {
+	display: none;
+	cursor: pointer;
+	height: 70px;
+	margin-bottom: 50px;
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
+	transition: 0.3s;
+}
+
+.menu img:hover {
+	transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.api {
+	z-index: 99;
+	background: rgba(255, 255, 255, 0.48);
+	box-shadow: -4px 5px 0px 0 #015b90c9;
+	position: fixed;
+	right: 0;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+.api h2 {
+	text-align: end;
+	color: white;
+	font-size: 20px;
+}
+
+.gui {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.gui .controls {
+	z-index: 99;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+.gui .controls img {
+	width: 50px;
+	cursor: pointer;
 }
