@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { observer } from "mobx-react";
 import io from "socket.io-client";
-import hasCollided from "./Collision";
 
 // Generate a socket.io instance
 const socket = io("http://localhost:3001", {
@@ -25,9 +24,6 @@ function SocketListener({ state }) {
 			});
 			state.updatePlayers(update.players);
 			state.updateFruits(update.fruits);
-		});
-		socket.on("collision", () => {
-			hasCollided(state);
 		});
 		// eslint-disable-next-line
 	}, []);
