@@ -2,6 +2,7 @@
 	"name": "frutinhas3d",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://sampaioleal.github.io/frutinhas",
 	"dependencies": {
 		"@material-ui/core": "^4.8.3",
 		"@material-ui/icons": "^4.5.1",
