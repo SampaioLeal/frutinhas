@@ -3,7 +3,7 @@ import { observer } from "mobx-react";
 import io from "socket.io-client";
 
 // Generate a socket.io instance
-const socket = io("http://localhost:3001", {
+const socket = io("http://192.81.217.9/frutinhas", {
 	forceNew: true,
 	autoConnect: true
 });
