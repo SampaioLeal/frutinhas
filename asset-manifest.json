@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/frutinhas/static/css/main.f133b3a5.chunk.css",
-    "main.js": "/frutinhas/static/js/main.3a45e092.chunk.js",
-    "main.js.map": "/frutinhas/static/js/main.3a45e092.chunk.js.map",
+    "main.js": "/frutinhas/static/js/main.b98f0277.chunk.js",
+    "main.js.map": "/frutinhas/static/js/main.b98f0277.chunk.js.map",
     "runtime-main.js": "/frutinhas/static/js/runtime-main.c4a8849a.js",
     "runtime-main.js.map": "/frutinhas/static/js/runtime-main.c4a8849a.js.map",
     "static/js/2.f1153567.chunk.js": "/frutinhas/static/js/2.f1153567.chunk.js",
     "static/js/2.f1153567.chunk.js.map": "/frutinhas/static/js/2.f1153567.chunk.js.map",
     "index.html": "/frutinhas/index.html",
-    "precache-manifest.67b5d7eceaf853edc669b612e327e34c.js": "/frutinhas/precache-manifest.67b5d7eceaf853edc669b612e327e34c.js",
+    "precache-manifest.948500bd972681b407326f51b4856b64.js": "/frutinhas/precache-manifest.948500bd972681b407326f51b4856b64.js",
     "service-worker.js": "/frutinhas/service-worker.js",
     "static/css/main.f133b3a5.chunk.css.map": "/frutinhas/static/css/main.f133b3a5.chunk.css.map",
     "static/js/2.f1153567.chunk.js.LICENSE": "/frutinhas/static/js/2.f1153567.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c4a8849a.js",
     "static/js/2.f1153567.chunk.js",
     "static/css/main.f133b3a5.chunk.css",
-    "static/js/main.3a45e092.chunk.js"
+    "static/js/main.b98f0277.chunk.js"
   ]
 }
