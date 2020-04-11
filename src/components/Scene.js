@@ -8,7 +8,7 @@ export default function Scene({ children, state }) {
 	state.scene = new THREE.Scene();
 
 	// Set scene background
-	const bg = new THREE.TextureLoader().load("/background.png");
+	const bg = new THREE.TextureLoader().load("./background.png");
 	state.scene.background = bg;
 
 	// Generate a webgl2 Canvas
@@ -17,7 +17,7 @@ export default function Scene({ children, state }) {
 	// Set webgl2 renderer
 	state.renderer = new THREE.WebGLRenderer({
 		canvas: canvas,
-		context: context
+		context: context,
 	});
 	// Enable shadows
 	state.renderer.shadowMap.enabled = true;

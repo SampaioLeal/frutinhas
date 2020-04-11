@@ -31,9 +31,9 @@ function GUI({ state }) {
 			</div>
 			<div className="controls">
 				{state.soundtrack && status ? (
-					<img onClick={muteMusic} src="/mute.png" alt="Mute Music" />
+					<img onClick={muteMusic} src="./mute.png" alt="Mute Music" />
 				) : (
-					<img onClick={playMusic} src="/unmute.png" alt="Play Music" />
+					<img onClick={playMusic} src="./unmute.png" alt="Play Music" />
 				)}
 			</div>
 		</div>

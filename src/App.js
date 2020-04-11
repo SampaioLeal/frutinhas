@@ -43,14 +43,14 @@ function App({ state }) {
 				<p>
 					por{" "}
 					<a
-						href="https://sampaioleal.ml"
+						href="https://sampaioleal.github.io"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						Sampaio Leal
 					</a>
 				</p>
-				<img onClick={startGame} src="/play.png" alt="Play button" />
+				<img onClick={startGame} src="./play.png" alt="Play button" />
 			</div>
 			<Game state={state} />
 		</>

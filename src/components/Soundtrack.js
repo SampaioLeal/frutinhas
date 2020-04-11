@@ -18,7 +18,7 @@ function Soundtrack({ state }) {
 	useEffect(() => {
 		if (state.soundtrack && !loaded) {
 			// Load soundtrack file
-			audioLoader.load("/Disconnected.mp3", function(buffer) {
+			audioLoader.load("./Disconnected.mp3", function(buffer) {
 				state.soundtrack.setBuffer(buffer);
 				state.soundtrack.setLoop(true);
 				state.soundtrack.setVolume(0.5);
