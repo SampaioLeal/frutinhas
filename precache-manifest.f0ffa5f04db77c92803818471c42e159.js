@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da98489e2a06a023e1e23b12faf626fd",
+    "revision": "60b80e7204e9a8c66e413de7ebb67759",
     "url": "/frutinhas/index.html"
   },
   {
-    "revision": "4a497e90e7857e989b30",
+    "revision": "c7d23bd8eac03c06bda2",
     "url": "/frutinhas/static/css/main.fd6597ae.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frutinhas/static/js/2.f9b43e69.chunk.js.LICENSE"
   },
   {
-    "revision": "4a497e90e7857e989b30",
-    "url": "/frutinhas/static/js/main.155c5bd4.chunk.js"
+    "revision": "c7d23bd8eac03c06bda2",
+    "url": "/frutinhas/static/js/main.c9e1a6b3.chunk.js"
   },
   {
     "revision": "c94a72a79c37cd953d8d",
